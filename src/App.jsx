@@ -22,7 +22,7 @@ import ExpensesPage, {
 
 const router = createHashRouter([
   {
-    path: "/HomeBudget",
+    path: "/",
     element: <Main />,
     loader: mainLoader,
     errorElement: <Error />,
